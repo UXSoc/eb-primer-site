@@ -9,7 +9,7 @@ This site is a Hugo port of [UXSoc ADMU's EB Primer site](http://uxsociety.org/a
 Look at the `data/positions` folder to see the executive member position data. Duplicate one of the `toml` files and modify it to your liking.
 
 | toml key | toml value |
--------------------------
+| -------- | ---------- |
 | weight | the lower the weight, the closer to the top the position will appear in relation to other positions |
 | position | the position of the UXSoc executive member |
 | nickname | the nickname of the position

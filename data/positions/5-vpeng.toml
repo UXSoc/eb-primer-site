@@ -1,0 +1,16 @@
+weight = 5
+position = "Vice President of Front-end Engineering"
+nickname = "THE SMARTEST PERSON IN THE ORG"
+content = """
+You are a craftsman.
+
+You write elegant HTML, CSS and JavaScript. When it comes to turning design into reality, you are the person everyone in the UX Design department turns to.
+
+When it comes to execution, you collaborate well with the UX Design department to ensure that the end-product is pixel perfect, functional, usable, and delightful.
+
+You are comfortable working with content management systems and can whip up a WordPress theme or two. You are also familiar with version control, web hosting, domain management, and setting up emails for client websites.
+
+You are a reliable developer who can execute in crunch times. You are the backbone of the organization and can develop full websites in agreed timelines.
+
+Because of your efforts, UX Society is recognized for its projects and stellar work.
+"""

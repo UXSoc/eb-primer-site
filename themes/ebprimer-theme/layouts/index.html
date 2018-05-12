@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body class="primer">
+<div class="container padded">
+    <div class="wew fixed">
+        <h1>{{ .Site.Params.Nav.Title }}</h1>
+        <img src="{{ .Site.BaseURL }}/{{ .Site.Params.Nav.Brand }}" class="logo" alt="">
+    </div>
+    <a href="{{ .Site.Params.Nav.cta_link }}" class="apply">{{ .Site.Params.Nav.cta_text }}</a>
+</div>
+<div class="position-wrapper" style="padding-bottom: 4em;">
+    <h1 style="max-width: 800px; padding-top: 2em; text-align: center; line-height: 1.3em; font-weight: 500; font-size: 40px; color: grey;">{{ .Site.Params.hero_text | safeHTML }}</h1>
+</div>
+{{ range $member := sort .Site.Data.positions "weight" }}
+<div class="position-wrapper">
+    <div class="position-item">
+        <h1 class="position">{{ $member.position }}</h1>
+        <h2>{{ $member.nickname }}</h2>
+        {{ $member.content | markdownify }}
+    </div>
+</div>
+{{ end }}
+</body></html>

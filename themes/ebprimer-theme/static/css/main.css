@@ -1,0 +1,126 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica, 'Helvetica Neue', 'Roboto',  sans-serif;
+    background: #698dff;
+    margin: 0px;
+}
+
+.logo {
+    max-width: 30px;
+    margin-right: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.wew {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+h1 {
+    color: white;
+    line-height: 1em;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    
+}
+
+#timer {
+    color: white;
+    opacity: 0.9;
+    font-size: 12px; 
+    font-weight: 500;
+}
+
+.position {
+    font-size: 3em;
+
+
+}
+
+h2 {
+    margin-bottom: 1em;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    padding: 0.3em 0.8em;
+    background: #698dff;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    border-radius: 2px;
+}
+.position-item {
+    max-width: 490px;
+}
+
+.position-wrapper {
+    padding: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.position-item p {
+    font-size: 1em;
+    line-height: 1.4em;
+    color: white;
+    opacity: 0.8;
+    margin-top: 1.2em;
+}
+
+.primer {
+    background: #1b1b1d;
+}
+
+.padded {
+    padding: 10px;
+    box-sizing: border-box;
+    background: #1b1b1ed1;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+}
+
+.apply {
+    border-radius: 4px;
+    border: 2px solid white;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5em 1em;
+    letter-spacing: 0.1em;
+    margin-right: 10px;
+}
+
+.apply:hover {
+    background: white;
+    color: black;
+}
+
+.position-item p:first-of-type {
+    font-size: 1.6em;
+    margin-top: -17px;
+    opacity: 1;
+}

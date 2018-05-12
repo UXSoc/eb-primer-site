@@ -2,7 +2,14 @@
 
 This site is a Hugo port of [UXSoc ADMU's EB Primer site](http://uxsociety.org/apps/primer). It is meant to be a single page site with executive board member position descriptions.
 
-![](images/screenshot.png)
+![](themes/ebprimer-theme/images/screenshot.png)
+
+## 2-step deploy on Netlify
+
+Are you a UXSoc chapter head that needs to use this theme? Do you need to deploy this super quickly? Then you're in the right place.
+
+1. Fork this repository
+2. Signup for [Netlify](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/) and link your forked repo
 
 ## Adding a executive board member position
 

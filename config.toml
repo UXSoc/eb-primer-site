@@ -2,6 +2,7 @@ baseURL = "https://compassionate-poitras-4e76b9.netlify.com"
 languageCode = "en-us"
 title = "UX Society EB Primer 2018"
 theme = "ebprimer-theme"
+publishDir = "html"
 
 [params]
     theme_color = "#ec3558"

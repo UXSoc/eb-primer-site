@@ -16,7 +16,7 @@ publishDir = "html"
     title = "EB Primer"
     brand = "logo.png"
     cta_text = "APPLY"
-    cta_link = "https://uxsociety.org/apps/"
+    cta_link = "https://airtable.com/embed/shrcxCuaRYcCwcWWf?backgroundColor=purple"
 
 [params.nav.cta]
-    enable = false
+    enable = true

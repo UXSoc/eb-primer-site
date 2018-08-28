@@ -9,7 +9,9 @@
         <h1>{{ .Site.Params.Nav.Title }}</h1>
         <img src="{{ .Site.BaseURL }}/{{ .Site.Params.Nav.Brand }}" class="logo" alt="">
     </div>
-    <a href="{{ .Site.Params.Nav.cta_link }}" class="apply">{{ .Site.Params.Nav.cta_text }}</a>
+    {{ if .Site.Params.Nav.cta.enable }}
+      <a href="{{ .Site.Params.Nav.cta_link }}" class="apply">{{ .Site.Params.Nav.cta_text }}</a>
+    {{ end }}
 </div>
 <div class="position-wrapper" style="padding-bottom: 4em;">
     <h1 style="max-width: 800px; padding-top: 2em; text-align: center; line-height: 1.3em; font-weight: 500; font-size: 40px; color: grey;">{{ .Site.Params.hero_text | safeHTML }}</h1>

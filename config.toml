@@ -16,3 +16,6 @@ theme = "ebprimer-theme"
     brand = "logo.png"
     cta_text = "APPLY"
     cta_link = "https://uxsociety.org/apps/"
+
+[params.nav.cta]
+    enable = false
